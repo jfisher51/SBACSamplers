@@ -1,0 +1,1537 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset end */
+body {
+	margin:0;
+	color:#5a5a5a;
+	font:12px/16px Arial, Helvetica, sans-serif;
+	background:#fff url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-body.jpg) repeat-x;
+	min-width:998px;
+}
+img {border-style:none;}
+a {
+	text-decoration:none;
+	color:#2aabde;
+}
+a:hover {color:#42a747;}
+strong {font-weight:bold;}
+legend span {
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+}
+/* wrapper */
+.wrapper {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	padding:10px 0 0;
+}
+/* main */
+.main {
+	width:1034px;
+	margin:0 auto;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-page.png) no-repeat;
+	padding:15px 0 10px;
+}
+.main-btm {
+	width:1034px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-page.png) no-repeat -1044px 100%;
+	padding-bottom:15px;
+}
+.main-area {
+	width:1020px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-page.png) repeat-y -2088px 0;
+	padding:0 7px 10px 7px;
+}
+h1 {
+	font:bold italic 24px/28px Arial, Helvetica, sans-serif;
+	color:#18577e;
+}
+h1 a,
+h2 a {color:#18577e;}
+h1 a:hover,
+h2 a:hover {color:#42a747;}
+h2 {
+	font:bold 16px/20px Arial, Helvetica, sans-serif; /*font:bold 18px/22px Arial, Helvetica, sans-serif;*/
+	color:#18577e;
+}
+h3 {
+	font:bold 14px/16px Arial, Helvetica, sans-serif; /*font:bold 16px/18px Arial, Helvetica, sans-serif;*/
+	color:#5a5a5a;
+	margin-bottom:5px;
+}
+h4 {
+	font:bold 14px/16px Arial, Helvetica, sans-serif;
+	color:#5a5a5a;
+}
+h5,
+h6 {
+	font:bold 13px/15px Arial, Helvetica, sans-serif;
+	color:#5a5a5a;
+}
+/* header */
+#header {
+	position:relative;
+	height:91px;
+	z-index:3;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-header.png) repeat-x 0 100%;
+}
+#header .mail {
+	position:absolute;
+	top:45px;
+	right:257px;
+	padding-right:35px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/ico-01.gif) no-repeat 100% 50%;
+	color:#5a5a5a;
+	font-weight:bold;
+	line-height:18px;
+}
+#header .mail:hover {color:#49a64b;}
+/* logo */
+#header .logo {
+	position:absolute;
+	top:4px;
+	right:30px;
+	width:194px;
+	height:60px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/logo.gif) no-repeat;
+}
+#header .logo a {
+	display:block;
+	height:50%;
+	position:relative;
+}
+#header .printlogo {display:none;}
+/* top-nav */
+.top-nav {
+	position:absolute;
+	right:17px;
+	font-weight:bold;
+	top:0;
+}
+.top-nav li {
+	float:left;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/sep-01.gif) no-repeat 0 50%;
+	padding:0 10px 0 15px;
+}
+.top-nav li:first-child {background:none;}
+.top-nav a {color:#5a5a5a;}
+.top-nav a:hover {color:#49a64b;}
+.top-nav .active a {color:#0684ac;}
+#header .nav-holder {
+	position:absolute;
+	top:81px;
+	left:23px;
+	width:965px;
+	height:37px;
+	padding:0 6px;
+	background:url(../images/bg-mainnav-sample.png) no-repeat;
+}
+.home #header .nav-holder {
+	width:1001px;
+	left:0;
+	padding:0 9px;
+	background-position:-987px 0;
+}
+/* main-nav */
+#main-nav {
+	width:100%;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:20px;
+}
+#main-nav li {
+	float:left;
+	border-left:1px solid #8f9192;
+	margin-right:-1px;
+}
+#main-nav li:first-child {border:none;}
+#main-nav a {
+	float:left;
+	text-align:center;
+	color:#f1f1f1;
+	padding:0 21px 1px;
+}
+#main-nav.scaling-active a {padding:0 0 1px;}
+#main-nav a:hover ,
+#main-nav li:hover a {color:#6bdaff;}
+#main-nav li:hover {position:relative;}
+#main-nav li:hover .drop {display:block; z-index:1000;}
+/* main-nav drop */
+#main-nav .drop {
+	display:none;
+	position:absolute;
+	top:21px;
+	left:50%;
+	margin-left:-116px;
+	width:790px;
+	background-color: #15577c;
+	/*background-image:url(images/bg-drop-sample.png) no-repeat 0 100%;*/
+	border-radius:0px 0px 7px 7px;
+	-moz-border-radius:0px 0px 7px 7px;
+	-webkit-border-radius:0px 0px 7px 7px;
+	padding:0 7px 15px;
+	
+}
+#main-nav #menu-item-32 .drop{
+	width:500px;
+}
+
+#main-nav .first-child .drop {
+	left:-6px;
+	margin:0;
+	top:19px;
+}
+#main-nav .last-child .drop {
+	right:-6px;
+	left:auto;
+	margin:0;
+	top:19px;
+}
+#main-nav ul {
+	text-transform:none;
+	width:auto;
+	padding:5px 26px 10px;
+	line-height:14px;
+}
+#main-nav ul li {
+	float:none;
+	border:none;
+	margin:0;
+	padding:3px 0;
+}
+#main-nav ul a ,
+#main-nav li:hover ul a {
+	float:none;
+	color:#f1f1f1;
+	padding:0;
+}
+#main-nav ul a:hover ,
+#main-nav li:hover ul a:hover {color:#6bdaff;}
+/* widget_search */
+#header .widget_search {
+	position:absolute;
+	right:27px;
+	top:44px;
+	width:211px;
+}
+#header .widget_search .field {
+	float:left;
+	width:146px;
+	border:1px solid #c3c3c3;
+	border-top:1px solid #7c7c7c;
+	background:none;
+	padding:3px 5px;
+	margin:0;
+	font:bold 10px/12px Arial, Helvetica, sans-serif;
+	color:#3e3e3e;
+}
+#header .widget_search .btn {
+	float:right;
+	height:20px;
+	width:48px;
+	text-align:center;
+	background:#5a5a5a;
+	overflow:visible;
+	padding:0 0 2px;
+	color:#fff;
+	border:0;
+	cursor:pointer;
+	font:bold 11px/18px Arial, Helvetica, sans-serif;
+}
+/* time-section */
+.time-section {
+	width:100%;
+	margin:-10px 0 -15px;
+	padding:33px 0 0;
+	overflow:hidden;
+	position:relative;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-time-section.png) repeat-y;
+}
+.time-section .txt-holder {
+	color:#9e9e9e;
+	font-size:15px;
+	line-height:20px;
+	padding:0 30px;
+	overflow:hidden;
+	position:relative;
+}
+.time-section h1 {
+	margin:0 0 -3px;
+	color:#bdbcbc;
+	font-size:40px;
+	line-height:48px;
+	font-style:italic;
+}
+.time-holder {width:100%;}
+.time-area {height:115px;}
+.time-section.type-02 .time-area {height:133px;}
+.time-area .time-line:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+.time-area .time-line {
+	padding-top:92px;
+	width:1050px;
+	margin:0 -30px 0 0;
+}
+.time-area .year-holder {
+	float:left;
+	margin:-9999px 0 0;
+	padding:9999px 0 0;
+}
+/*.time-area .year-holder-1.active {background:#9dbb9d;}
+.time-area .year-holder-2.active {background:#aad2ac;}
+.time-area .year-holder-3.active {background:#d6ebb0;}
+.time-area .year-holder-4.active {background:#c7edfe;}
+.time-area .year-holder-5.active {background:#92c4d4;}
+.time-area .year-holder-6.active {background:#99b3c2;}
+.time-area .year-holder-7.active {background:#92a5af;}
+*/
+/* updated backgrounds by GMMB - mickey */
+.time-area .year-holder-1.active {background:#bbe4ba;}
+.time-area .year-holder-2.active {background:#cfecd0;}
+.time-area .year-holder-3.active {background:#e6f5c9;}
+.time-area .year-holder-4.active {background:#d8f1fb;}
+.time-area .year-holder-5.active {background:#c8e8f5;}
+.time-area .year-holder-6.active {background:#b8dbea;}
+.time-area .year-holder-7.active {background:#7bb7d0;}
+
+
+/* year */
+.time-area .year {
+	width:165px;
+	float:left;
+	height:18px;
+	text-align:center;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/sep-02.png) no-repeat 50% 50%;
+	padding:2px 0 3px;
+	line-height:18px;
+	font-size:18px;
+	font-weight:bold;
+	position:relative;
+	border:2px solid #fff;
+	border-width:0 2px;
+}
+.time-section.type-02 .time-area .year {
+	height:36px;
+	background-repeat:repeat-y;
+}
+.time-area .year-holder.active .year {
+	color:#fff;
+	background-position:52% 50%;
+	border-color:#fff;
+}
+.time-area .year-holder.active .year1 {
+	width:54px;
+	background-position:60px 50%;
+}
+.time-area .year-holder.active .year7 {
+	width:54px;
+	background-position:23px 50%;
+}
+.time-area .year1 {
+	width:54px;
+	color:#649965;
+	text-align:right;
+	padding:2px 32px 3px 0;
+	border-width:0 2px 0 0;
+	border-color:#216d23;
+	background:#216d23 url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/sep-04.png) no-repeat 60px 50%;
+}
+.time-area .year2 {
+	background-color:#42a748;
+	border-color:#42a748;
+	color:#7bc27f;
+}
+.time-area .year3 {
+	background-color:#81b21f;
+	border-color:#81b21f;
+	color:#9ac24c;
+}
+.time-area .year4 {
+	background-color:#38addc;
+	border-color:#38addc;
+	color:#74c6e7;
+}
+.time-area .year5 {
+	background-color:#0684ac;
+	border-color:#0684ac;
+	color:#51a9c5;
+}
+.time-area .year6 {
+	background-color:#19587f;
+	border-color:#19587f;
+	color:#5e8aa6;
+}
+.time-area .year7 {
+	background: url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/sep-04.png) no-repeat scroll 23px 50% #07374F;
+    border-color: #07374F;
+    border-width: 0 0 0 2px;
+    color: #395F72;
+    padding: 2px 0 3px 32px;
+    text-align: left;
+    width: 54px;
+}
+/* events */
+.time-area .events {
+	position:absolute;
+	bottom:19px;
+	padding:0 0 4px;
+	border-width:0 0 0 2px;
+	border-color:#07374f;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-04.png) no-repeat -9999px -9999px;
+}
+.time-section.type-02 .time-area .events {bottom:37px;}
+.time-area .events.active,
+.time-area .events:hover {background-position:50% 100%;}
+.time-area .year7 .q1 {left:3px;}
+.time-area .q1 {left:7px;}
+.time-area .q2 {left:36px;}
+.time-area .q3 {left:118px;}
+.time-area .q4 {left:145px;}
+.time-area .year1 .q4 {left:66px;}
+.time-area .events li {
+	padding-bottom:6px;
+	height:1%;
+	vertical-align:top;
+	font-size:0;
+	line-height:0;
+}
+.time-area .events a {
+	display:block;
+	width:17px;
+	height:17px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-events.png) no-repeat;
+}
+.time-area .year1 .events a {background-position:0 0;}
+.time-area .year1 .events a:hover ,
+.time-area .year1 .events .active a {background-position:0 -27px;}
+.time-area .year2 .events a {background-position:-27px 0;}
+.time-area .year2 .events a:hover ,
+.time-area .year2 .events .active a {background-position:-27px -28px;}
+.time-area .year3 .events a {background-position:-54px 0;}
+.time-area .year3 .events a:hover ,
+.time-area .year3 .events .active a {background-position:-54px -28px;}
+.time-area .year4 .events a {background-position:-81px 0;}
+.time-area .year4 .events a:hover ,
+.time-area .year4 .events .active a {background-position:-81px -27px;}
+.time-area .year5 .events a {background-position:-108px 0;}
+.time-area .year5 .events a:hover ,
+.time-area .year5 .events .active a {background-position:-108px -27px;}
+.time-area .year6 .events a {background-position:-135px 0;}
+.time-area .year6 .events a:hover ,
+.time-area .year6 .events .active a {background-position:-135px -27px;}
+.time-area .year7 .events a {background-position:-162px 0;}
+.time-area .year7 .events a:hover ,
+.time-area .year7 .events .active a {background-position:-162px -27px;}
+/* tabs-section */
+.tabs-section {
+	width:100%;
+	height:260px;
+	overflow:hidden;
+	position:relative;
+}
+.tabs-section .tab {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:260px;
+}
+.tabs-section .tab.active {display:block;}
+/* info-list */
+.info-list {
+	position:absolute;
+	top:56px;
+	right:49px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#fff;
+	font-size:16px;
+	line-height:22px;
+	width:429px;
+	height:153px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-info.png) no-repeat;
+}
+.info-list li {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:389px;
+	height:153px;
+	padding:8px 20px;
+}
+.info-list li.active {display:block;}
+.info-list h2 {
+	margin:0 0 8px;
+	color:#fff;
+	font-size:22px;
+	line-height:26px;
+}
+.info-list p {margin:0 0 8px;}
+.info-list .arrow {
+	color:#fff;
+	font-size:13px;
+	padding:0 10px 0 0;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-03.png) no-repeat 100% -47px;
+}
+.info-list .arrow:hover {text-decoration:underline;}
+.tabs-section img {vertical-align:top;}
+/* switcher */
+.time-section .switcher {
+	position:absolute;
+	bottom:31px;
+	right:50px;
+	z-index:11;
+	font-size:11px;
+	line-height:14px;
+	font-weight:bold;
+}
+.time-section .switcher li {
+	float:left;
+	padding:0 15px 0 18px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/sep-03.gif) no-repeat 0 3px;
+}
+.time-section .switcher li:first-child {background:none;}
+.time-section .switcher a {color:#f1f1f1;}
+.time-section .switcher a:hover {text-decoration:underline;}
+.time-section .switcher .prev,
+.time-section .switcher .next {
+	padding:0 0 0 10px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-03.png) no-repeat 0 3px;
+}
+.time-section .switcher .next {
+	padding:0 10px 0 0;
+	background-position:100% -47px;
+}
+/* promo */
+.promo {
+	padding:21px 0 0;
+	position:relative;
+	background:#3e3e3e;
+	z-index:2;
+	width:100%;
+	overflow:hidden;
+	margin:-10px 0 0;
+}
+/* horizontal accordion */
+.hor-accordion {
+	width:1021px;
+	margin:0 -1px 0 0;
+	height:290px;
+	color:#5f5f5f;
+	font-size:15px;
+	line-height:20px;
+	overflow:hidden;
+}
+.hor-accordion img {vertical-align:top;}
+.hor-accordion .s1 img {
+	position:absolute;
+	top:0;
+	left:0;
+}
+.hor-accordion.align-left {margin:0;}
+.hor-accordion .acc-item {
+	display:inline;
+	overflow:hidden;
+	background:#fff;
+}
+.hor-accordion .acc-item.s1 {font-size:14px;}
+.hor-accordion .acc-opener {
+	float:right;
+	display:block;
+	width:150px;
+	height:290px;
+	margin:0 1px 0 0;
+	line-height:290px;
+	overflow:hidden;
+	position:relative;
+}
+.hor-accordion .item-active .acc-opener {cursor:default;}
+.hor-accordion .item-active .acc-opener .arrow{display:none;}
+.hor-accordion .acc-opener .arrow {
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:35px;
+	height:34px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-10.png) no-repeat;
+}
+.hor-accordion .acc-opener .shadow {
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:150px;
+	height:290px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:#000;
+	display:none;
+	cursor:pointer;
+}
+.hor-accordion .s1 .slide-txt {
+	left: 360px;
+}
+.hor-accordion .acc-slide {
+	float:left;
+	height:290px;
+	overflow:hidden;
+	position:relative;
+}
+.hor-accordion .acc-slide p {margin:0 0 1px;}
+.hor-accordion .acc-wrapper {
+	overflow:hidden;
+	position:relative;
+}
+.hor-accordion .slide-txt {
+	position:absolute;
+	top:67px;
+	left:110px;
+	width:320px;
+}
+.hor-accordion .s2 .slide-txt {
+	top:41px;
+	left:35px;
+	width:260px;
+}
+.hor-accordion .s3 .slide-txt {
+	top:41px;
+	left:35px;
+	/*width:200px;*/
+}
+.hor-accordion .title {
+	display:block;
+	margin:0 0 7px;
+	color:#063650;
+	font-size:26px;
+	line-height:27px;
+}
+.hor-accordion .s1 .title {
+	margin:0 0 5px;
+	font-size:29px;
+	line-height:28px;
+}
+/*.hor-accordion .s3 .title {
+	position:absolute;
+	top:23px;
+	left:55px;
+}*/
+.hor-accordion .title span {
+	display:block;
+	font-size:22px;
+}
+.hor-accordion .s1 .title span {font-size:25px;}
+.hor-accordion .slide-txt .arrow {
+	padding:0 6px 0 0;
+	font-size:11px;
+	line-height:14px;
+	font-weight:bold;
+	letter-spacing:1px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-02.png) no-repeat 100% 50%;
+	font-weight:bold;
+}
+/* two-columns */
+#twocolumns {
+	padding:7px 0 8px 22px;
+	overflow:hidden;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-twocolumns.png) repeat-x;
+}
+/* content-area */
+#twocolumns .content-area {
+	float:left;
+	width:661px;
+	font-size:13px;
+	line-height:18px;
+	overflow:hidden;
+}
+/* .featured-block */
+#twocolumns .featured-block {
+	width:100%;
+	min-height:89px;
+	margin:-1px 0 0;
+	padding:18px 0 13px;
+	overflow:hidden;
+	border-top:1px solid #ddd;
+}
+#twocolumns .featured-block h2 {margin:0 0 2px;}
+#twocolumns li {margin:0 0 2px;}
+#twocolumns .alignleft {
+	float:left;
+	margin:4px 25px 0 2px;
+	border:1px solid #c2c2c2;
+}
+#twocolumns .alignright {
+	float:right;
+	margin:4px 2px 0 25px;
+	border:1px solid #c2c2c2;
+}
+#twocolumns .txt-holder {overflow:hidden;}
+/* two-columns aside */
+#twocolumns .aside {
+	float:right;
+	width:301px;
+	padding:18px 0 0;
+	line-height:15px;
+}
+#twocolumns .aside h2 {margin:0 0 -1px;}
+#twocolumns .aside p {margin:0 0 11px;}
+/* two-columns accordion */
+#twocolumns .accordion {
+	width:100%;
+	margin:0 0 10px;
+	padding:0;
+	color:#fff;
+	font-size:11px;
+	line-height:16px;
+	list-style:none;
+	overflow:hidden;
+}
+#twocolumns .accordion li {
+	margin:0;
+	background:#38addc;
+	border-bottom:1px solid #c1e0ea;
+}
+#twocolumns .accordion li .slide {
+	width:301px;
+	overflow:hidden;
+	position:relative;
+}
+#twocolumns .accordion .opener {
+	display:block;
+	padding:2px 24px 0;
+	color:#6ac2e5;
+	font-size:15px;
+	line-height:18px;
+	font-weight:bold;
+	outline:none;
+}
+#twocolumns .accordion .ui-state-active {
+	color:#fff !important;
+	font-size:18px;
+	line-height:21px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bullet-04.png) no-repeat 7px 7px;
+}
+#twocolumns .accordion .holder {
+	padding:5px 0 5px 3px;
+	margin:3px 24px 0;
+	overflow:hidden;
+	border-top:1px solid #fff;
+}
+#twocolumns .accordion h3 {
+	color:#fff;
+	font-size:11px;
+	line-height:16px;
+	margin:0 0 0 2px;
+}
+#twocolumns .aside .accordion p {margin:0;}
+#twocolumns .accordion .dk-green .opener {color:#559f55;}
+#twocolumns .accordion .green .opener {color:#6ab673;}
+#twocolumns .accordion .lt-green .opener {color:#b1d063;}
+#twocolumns .accordion .lt-blue .opener {color:#51a9c5;}
+#twocolumns .accordion .blue .opener {color:#5e8aa6;}
+#twocolumns .accordion .dk-blue .opener {color:#39657c;}
+#twocolumns .accordion .dk-green {
+	background:#0c750c;
+	border-color:#8dc290;
+}
+#twocolumns .accordion .green {
+	background:#2a9637;
+	border-color:#e3eec7;
+}
+#twocolumns .accordion .lt-green {
+	background:#8fbc20;
+	border-color:#cdeaf6;
+}
+#twocolumns .accordion .lt-blue {
+	background:#0684ac;
+	border-color:#8cabbf;
+}
+#twocolumns .accordion .blue {
+	background:#19587f;
+	border-color:#53829f;
+}
+#twocolumns .accordion .dk-blue {
+	background:#073f5b;
+	border-color:#839fad;
+}
+/* arrow */
+#twocolumns .accordion .arrow {
+	color:#fff;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-09.png) no-repeat 100% 50%
+}
+#twocolumns .accordion .arrow:hover {text-decoration:underline;}
+#twocolumns .arrow {
+	padding-right:9px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-01.gif) no-repeat 100% 50%;
+	font-size:10px;
+}
+/* footer */
+#footer {
+	width:1000px;
+	font-size:11px;
+	line-height:14px;
+	border:1px solid #d7d7d7;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background:#fff url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/gradient-01.gif) repeat-x 0 100%;
+	padding:15px 10px 23px;
+	margin:-2px auto 10px;
+	text-align:center;
+	position:relative;
+	min-height:82px;
+}
+#footer ul {
+	width:100%;
+	font-size:12px;
+	line-height:16px;
+	padding:0 0 24px;
+}
+#footer ul li {
+	display:inline;
+	padding:0 13px 0 17px;
+	margin-right:-3px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bullet-01.gif) no-repeat 0 50%;
+}
+#footer ul li:first-child {background:none;}
+#footer ul a {color:#5a5a5a;}
+#footer ul a:hover {text-decoration:underline;}
+/* follow */
+#footer .follow {
+	position:absolute;
+	right:18px;
+	top:16px;
+	width:60px;
+	font-size:12px;
+	line-height:16px;
+}
+#footer .follow span {
+	display:block;
+	margin-bottom:12px;
+}
+#footer .follow ul {padding:12px 0 0;}
+#footer .follow ul li {
+	display:block;
+	padding:0;
+	margin:0 0 10px;
+	background:none;
+	font-size:0;
+	line-height:0;
+}
+#footer .follow ul a {
+	display:inline;
+	padding:0;
+	margin:0;
+	background:none;
+}
+/* columns-holder */
+.columns-holder {
+	width:100%;
+	overflow:hidden;
+	padding:34px 0 0;
+	min-height:400px;
+}
+/* content */
+#content {
+	float:left;
+	width:1000px;
+}
+#content h1 {margin-bottom:11px;}
+#content h2 {margin-bottom:5px;}
+#content h5,
+#content h6 {margin-bottom:1px;}
+.align-left {
+	float:left;
+	margin:0 10px 10px 0;
+}
+.align-right {
+	float:right;
+	margin:0 0 10px 10px;
+}
+/* title-area */
+.title-area {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:26px;
+}
+.title-area .text {
+	padding:19px 30px 0 0;
+	position:relative;
+	overflow:hidden;
+}
+.title-area .align-left {
+	float:left;
+	margin:0 10px 0 0;
+}
+.title-area .subtitle {
+	color:#a7a7a7;
+	font-size:15px;
+	font-weight:normal;
+	line-height:20px;
+	font-style:italic;
+}
+/* text-box */
+#content .text-box {
+	padding:0 0 0 28px;
+	line-height:16px;
+}
+#content .text-box p {margin-bottom:13px;}
+#content .text-box ul {padding:0 0 7px;}
+/*#content .text-box ul li {
+	padding:0 0 0 8px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bullet-02.gif) no-repeat 0 6px;
+}*/
+#content .text-box ul li {
+        margin-top: 10px;
+    padding: 0 0 0 18px;
+        background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bullet-02.gif) no-repeat 0 6px;
+}
+
+#content .text-box ul p {margin-bottom:6px;}
+/* sidebar */
+#sidebar {
+	float:right;
+	width:300px;
+	padding-right:33px;
+}
+#sidebar .info-block {margin-bottom:17px;}
+/* module */
+.module-01 {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-01.gif) repeat-y -310px 0;
+	overflow:hidden;
+}
+.module-01 .holder {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-01.gif) no-repeat;
+}
+.module-01 .frame {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-01.gif) no-repeat -620px 100%;
+	min-height:195px;
+}
+.module-01 .module-content {padding:15px 19px 10px 14px;}
+.module-01 .title {
+	border-bottom:2px solid #99c83a;
+	font-size:0;
+	line-height:0;
+	padding:3px 0 6px;
+	margin-bottom:8px;
+	height:1%;
+}
+.module-01 .box {
+	padding:0 0 14px 1px;
+	line-height:14px;
+}
+.module-01 .box strong {
+	display:block;
+	font-weight:bold;
+	margin-bottom:4px;
+}
+.module-01 .box strong a {color:#43aeda;}
+.module-01 .box strong a:hover {color:#49a64b;}
+.module-01 .box .date {display:block;}
+.module-01 .arrow {
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-01.gif) no-repeat 100% 50%;
+	font-size:11px;
+	padding-right:9px;
+	color:#43aeda;
+	font-weight:bold;
+}
+.module-01 .arrow:hover {color:#49a64b;}
+/* module */
+.module-02 {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-02.gif) repeat-y -310px 0;
+	overflow:hidden;
+}
+.module-02 .holder {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-02.gif) no-repeat;
+}
+.module-02 .frame {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-02.gif) no-repeat -620px 100%;
+	min-height:195px;
+}
+.module-02 .module-content {padding:15px 10px 16px;}
+.module-02 .title {
+	font-size:0;
+	line-height:0;
+	padding:2px 0 6px 4px;
+	margin-bottom:15px;
+}
+.module-01 .link-holder ,
+.module-02 .link-holder {margin-top:-6px;}
+.module-02 .box {
+	padding:0 20px 14px 5px;
+	line-height:14px;
+}
+.module-02 .box strong {
+	display:block;
+	font-weight:bold;
+	margin-bottom:4px;
+}
+.module-02 .box strong a {color:#43aeda;}
+.module-02 .box strong a:hover {color:#49a64b;}
+.module-02 .box .date {display:block;}
+.module-02 .arrow {
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-01.gif) no-repeat 100% 50%;
+	font-size:11px;
+	padding-right:9px;
+	color:#43aeda;
+	margin:0 0 0 5px;
+	font-weight:bold;
+}
+.module-02 .arrow:hover {color:#49a64b;}
+/* module */
+.module-03 {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-03.gif) repeat-y -310px 0;
+	overflow:hidden;
+}
+.module-03 .holder {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-03.gif) no-repeat;
+}
+.module-03 .frame {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-03.gif) no-repeat -620px 100%;
+	min-height:182px;
+}
+.module-03 .module-content {padding:15px 19px 10px 14px;}
+.module-03 .title {
+	font-size:0;
+	line-height:0;
+	padding:0 0 6px 0;
+	margin-bottom:7px;
+	border-bottom:2px solid #42a747;
+}
+.module-03 .box {
+	padding:0 20px 14px 0;
+	line-height:14px;
+}
+.module-03 .box strong {
+	font-size:52px;
+	line-height:52px;
+	display:block;
+}
+/* module */
+.module-04 {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-04.gif) repeat-y -310px 0;
+	overflow:hidden;
+}
+.module-04 .holder {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-04.gif) no-repeat;
+}
+.module-04 .frame {
+	width:300px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-04.gif) no-repeat -620px 100%;
+	min-height:191px;
+}
+.module-04 .module-content {padding:11px 19px 24px 14px;}
+.module-04 .title {
+	font-size:0;
+	line-height:0;
+	padding:3px 0 3px 0;
+	margin-bottom:10px;
+	border-bottom:2px solid #1e587d;
+}
+.module-04 .box {
+	padding:0 20px 12px 0;
+	line-height:14px;
+}
+.module-04 .box strong {
+	display:block;
+	font-weight:bold;
+}
+.module-04 .box strong a {margin-left:5px;}
+.module-04 .arrow {
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-01.gif) no-repeat 100% 50%;
+	font-size:11px;
+	padding-right:9px;
+	color:#43aeda;
+	margin:0;
+	font-weight:bold;
+}
+.module-04 .arrow:hover {color:#49a64b;}
+/* module */
+/*.module-05 {
+	width:291px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module.gif) no-repeat 0 100%;
+	overflow:hidden;
+	padding-bottom:9px;
+	margin-left:5px;
+	color:#fff;
+	line-height:14px;
+}
+.module-05 .holder {
+	width:291px;
+	background:#3e3e3e url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-05.gif) no-repeat 0 100%;
+}
+.module-05 .module-content {padding:11px 50px 68px 10px;}
+.module-05 .title {
+	font-size:0;
+	line-height:0;
+	padding:0 0 3px;
+	margin-bottom:3px;
+}*/
+.module-05 {
+        width:291px;
+        background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-05-color.png) repeat-y 0 100%;
+        overflow:hidden;
+        padding-bottom:0px;
+        margin-bottom:9px;
+        margin-left:5px;
+        color:#5a5a5a;
+        line-height:14px;
+}
+.module-05 .holder {
+        width:291px;
+        background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module-05.png) no-repeat 0 100%;
+}
+.module-05 .module-content {padding:11px 50px 108px 10px;}
+.module-05 .title {
+        font-size:0;
+        line-height:0;
+        padding:0 0 3px;
+        margin-bottom:3px;
+}
+
+.module-01 .title h3 ,
+.module-02 .title h3 ,
+.module-03 .title h3 ,
+.module-04 .title h3 ,
+.module-05 .title h3 ,
+.module-06 .title h3 ,
+.module-07 .title h3 ,
+.widget_twitter .title h3 {
+	font-size:0;
+	line-height:0;
+}
+.module-05 .arrow {
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-01.gif) no-repeat 100% 50%;
+	font-size:11px;
+	padding-right:9px;
+	color:#5a5a5a;
+	margin:0;
+	font-weight:bold;
+}
+.module-05 .arrow:hover {color:#49a64b;}
+.module-05 .box {color:#5a5a5a;}
+/* module */
+.module-06 {
+	width:291px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module.gif) no-repeat 0 100%;
+	overflow:hidden;
+	padding-bottom:9px;
+	margin-left:5px;
+	color:#fff;
+	line-height:14px;
+}
+.module-06 .holder {
+	width:291px;
+	background:#d7eef8;
+}
+.module-06 .module-content {padding:0 10px 12px 10px;}
+.module-06 .title {
+	font-size:0;
+	line-height:0;
+	padding:19px 0 0 45px;
+	margin-bottom:1px;
+	min-height:36px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/ico-05.gif) no-repeat;
+}
+.module-06 .arrow {
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-01.gif) no-repeat 100% 50%;
+	font-size:11px;
+	padding-right:9px;
+	color:#43aeda;
+	margin:0;
+	font-weight:bold;
+}
+.module-06 .arrow:hover {color:#49a64b;}
+.module-06 .box {
+	color:#5a5a5a;
+	font-weight:bold;
+	line-height:14px;
+	padding-bottom:5px;
+}
+.module-06 .box p span {
+	color:#5a5a5a;
+	margin:0 3px;
+}
+.module-06 .link-holder {padding-top:5px;}
+/* module */
+.module-07 {
+	width:291px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module.gif) no-repeat 0 100%;
+	overflow:hidden;
+	padding-bottom:9px;
+	margin-left:5px;
+	line-height:14px;
+}
+.module-07 .holder {
+	width:291px;
+	background:#d6e9b0;
+}
+.module-07 .module-content {padding:15px 10px 14px 9px;}
+.module-07 .title {
+	font-size:0;
+	line-height:0;
+	padding:0 0 3px;
+	margin-bottom:11px;
+}
+.module-07 .arrow {
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-01.gif) no-repeat 100% 50%;
+	font-size:11px;
+	padding-right:9px;
+	color:#43aeda;
+	margin:0;
+	font-weight:bold;
+}
+.module-07 .arrow:hover {color:#49a64b;}
+.module-07 .box {
+	line-height:14px;
+	padding-bottom:7px;
+}
+.module-07 .box strong {
+	display:block;
+	color:#43aeda;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.module-07 .box .date {
+	font-size:11px;
+	display:block;
+	margin-bottom:4px;
+}
+/* module */
+.widget_twitter {
+	width:291px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bg-module.gif) no-repeat 0 100%;
+	overflow:hidden;
+	padding-bottom:9px;
+	margin-left:5px;
+	line-height:14px;
+	color:#fff;
+}
+.widget_twitter .holder {
+	width:291px;
+	background:#1e587d;
+}
+.widget_twitter .module-content {padding:14px 25px 14px 9px;}
+.widget_twitter .holder .title {
+	font-size:0;
+	line-height:0;
+	padding:0;
+	margin-bottom:9px;
+}
+.widget_twitter ul {padding:0;}
+.widget_twitter ul li {padding:0 0 14px;}
+.widget_twitter ul a {font-weight:bold;}
+.widget_twitter ul .links {padding:0;}
+.widget_twitter ul .links a {
+	color:#fff;
+	font-weight:normal;
+	font-size:11px;
+}
+.widget_twitter .arrow {
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-08.gif) no-repeat 100% 50%;
+	font-size:11px;
+	padding-right:9px;
+	color:#43aeda;
+	margin:0;
+	font-weight:bold;
+}
+.widget_twitter .arrow:hover {color:#49a64b;}
+.widget_twitter .link-holder {margin-top:-6px;}
+/* blog events news pubs */
+#content .blog ,
+#content .events ,
+#content .news ,
+#content .pubs {padding:19px 0 19px 24px;}
+#content .blog .box ,
+#content .events .box ,
+#content .news .box ,
+#content .pubs .box {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:34px;
+}
+#content .events .box ,
+#content .news .box {padding-bottom:18px;}
+#content .pubs .box {padding-bottom:13px;}
+#content .blog img ,
+#content .events .img ,
+#content .news .img ,
+#content .pubs .img {margin:3px 9px 10px 0;}
+#content .blog h2 ,
+#content .events h2 ,
+#content .news h2 ,
+#content .pubs h2 {
+	font-size:13px;
+	color:#43aeda;
+	line-height:15px;
+	margin-bottom:7px;
+}
+#content .blog h2 a ,
+#content .events h2 a ,
+#content .news h2 a ,
+#content .pubs h2 a {color:#38acdc;}
+#content .blog h2 a:hover ,
+#content .events h2 a:hover ,
+#content .news h2 a:hover ,
+#content .pubs h2 a:hover {color:#42a747;}
+#content .blog h2 a:visited ,
+#content .events h2 a:visited ,
+#content .news h2 a:visited ,
+#content .pubs h2 a:visited {color:#919191;}
+#content .blog .date ,
+#content .events .date ,
+#content .news .date ,
+#content .pubs .date {
+	display:block;
+	margin-bottom:6px;
+}
+#content .blog .text ,
+#content .events .text ,
+#content .news .text ,
+#content .pubs .text {
+	height:1%;
+	overflow:hidden;
+}
+#content .blog .more ,
+#content .events .more ,
+#content .news .more ,
+#content .pubs .more {
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-01.gif) no-repeat 100% 50%;
+	font-size:11px;
+	padding-right:9px;
+	margin:0;
+	font-weight:bold;
+}
+#content blockquote {
+	width:100%;
+	margin:0 0 18px;
+	color:#42a747;
+	font:italic bold 14px/18px Arial, Helvetica, sans-serif;
+	overflow:hidden;
+}
+#content cite {
+	display:block;
+	margin:0 0 0 30px;
+}
+#content ul {
+	width:100%;
+	padding:0 0 16px;
+	overflow:hidden;
+}
+#content ul li {
+	padding:0 0 2px 13px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/bullet-03.gif) no-repeat 6px 6px;
+}
+#content .pubs .text p a {
+	color:#5A5A5A;
+}
+#content p a:hover {
+	text-decoration:underline;
+}
+/* map */
+#content .map {padding:19px 0 19px 24px;}
+#content .map .mapholder {padding:10px 0;}
+#content .map img {display:block;}
+/* tools */
+#content .pubs .tools {
+	width:567px;
+	overflow:hidden;
+	padding:10px 0;
+}
+#content .pubs .tools ul {
+	float:left;
+	width:auto;
+	padding:0;
+}
+#content .pubs .tools ul li {
+	float:left;
+	padding:0 8px 0 8px;
+	background:none;
+	border-left:1px solid #e2e2e2;
+}
+#content .pubs .tools ul li:first-child {
+	padding-left:0;
+	border:none;
+}
+#content .pubs .tools ul a {float:left;}
+#content .pubs .tools ul img {display:block;}
+#content .pubs .tools .download {
+	float:right;
+	padding-right:20px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-05.gif) no-repeat 100% 50%;
+	line-height:17px;
+	margin:2px 0 0;
+}
+/* faq */
+#content .faq {padding:19px 0 19px 26px;}
+#content .faq .box {
+	height:1%;
+	padding:8px 0 11px 10px;
+	overflow:hidden;
+}
+#content .faq .box .title {
+	padding:0;
+	width:100%;
+	overflow:hidden;
+}
+#content .faq h2 {
+	font-size:13px;
+	color:#43aeda;
+	margin-bottom:7px;
+	line-height:18px;
+}
+#content .faq h2 a {
+	float:left;
+	color:#43aeda;
+	padding:2px 0 2px 29px;
+	background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-06.gif) no-repeat;
+}
+#content .faq h2 a:hover {color:#49a64b;}
+#content .faq .active h2 a {background:url(http://www.smarterbalanced.org/wordpress/wp-content/themes/smarterbalanced/images/arrow-07.gif) no-repeat;}
+#content .faq .box .slide{
+	width:599px;
+	overflow:hidden;
+	position:relative;
+}
+#content .faq .block {
+	padding:7px 0 0 29px;
+	line-height:16px;
+}
+.skip ,
+.totop {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+.skip:focus ,
+.totop:focus{
+	position:static;
+	width:auto;
+	height:auto;
+}
+.warning {
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+/* print version */
+@media print{
+	body {min-width:0;}
+	.wrapper {
+		overflow:visible;
+		position:static;
+	}
+	/* main */
+	.main {
+		width:100%;
+		background:none;
+	}
+	.main-btm {
+		width:100%;
+		background:none;
+	}
+	.main-area {
+		width:100%;
+		background:none;
+		padding:0;
+	}
+	/* header */
+	#header {background:none;}
+	#header .printlogo {display:block;}
+	#header .mail,
+	#header .logo,
+	.top-nav,
+	#header .nav-holder,
+	#header .widget_search,
+	.promo,
+	.time-area,
+	#twocolumns .aside,
+	#footer ul,
+	#footer .follow,
+	#sidebar,
+	#footer ,
+	.switcher,
+	.arrow {display:none;}
+	/* columns-holder */
+	.columns-holder {min-height:0;}
+	/* content */
+	#content {
+		float:none;
+		width:100%;
+	}
+}
+#content ol {
+	width:100%;
+	margin:0 0 18px;
+	overflow:hidden;
+	counter-reset:item;
+}
+
+#tech {display:none;}
+#performance {display:none;}
+#learning {display:none;}
+#difficulty {display:none;}
