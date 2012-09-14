@@ -3,55 +3,45 @@ Shows filtered tables in "View More" navigation item.
 */
 			$(function(){
 			
-			$('#null').addClass('mouseenter').click(function(){
-			$(this).addClass('mouseenter').fadeOut();
+			$('#null').addClass('show').click(function(){
+			$(this).addClass('show');
 			});
 			
-			$('span.null').click(function() {
-				$('#null').toggleClass('mouseenter').show();
-			}).mouseenter(function() {
-				$('#null.mouseenter').show().siblings().hide();
+			$('a.first-child-a').click(function() {
+				$('#null.show').show().siblings().hide();
 			});	
 			
-			$('#tech').addClass('mouseenter').click(function(){
-			$(this).addClass('mouseenter').fadeOut();
+			$('#tech').addClass('show').click(function(){
+			$(this).addClass('show');
 			});
 			
 			$('a.tech').click(function() {
-				$('#tech').toggleClass('mouseenter').show();
-			}).mouseenter(function() {
-				$('#tech.mouseenter').show().siblings().hide();
+				$('#tech.show').show().siblings().hide();
 			});		
 			
 			
-			$('#performance').addClass('mouseenter').click(function(){
-			$(this).addClass('mouseenter').fadeOut();
+			$('#performance').addClass('show').click(function(){
+			$(this).addClass('show');
 			});
 			
 			$('a.performance').click(function() {
-				$('#performance').toggleClass('mouseenter').show();
-			}).mouseenter(function() {
-				$('#performance.mouseenter').show().siblings().hide();
+				$('#performance.show').show().siblings().hide();
 			});		
 			
-			$('#learning').addClass('mouseenter').click(function(){
-			$(this).addClass('mouseenter').fadeOut();
+			$('#learning').addClass('show').click(function(){
+			$(this).addClass('show');
 			});
 			
 			$('a.learning').click(function() {
-				$('#learning').toggleClass('mouseenter').show();
-			}).mouseenter(function() {
-				$('#learning.mouseenter').show().siblings().hide();
+				$('#learning.show').show().siblings().hide();
 			});		
 			
-			$('#difficulty').addClass('mouseenter').click(function(){
-			$(this).addClass('mouseenter').fadeOut();
+			$('#difficulty').addClass('show').click(function(){
+			$(this).addClass('show');
 			});
 			
 			$('a.difficulty').click(function() {
-				$('#difficulty').toggleClass('mouseenter').show();
-			}).mouseenter(function() {
-				$('#difficulty.mouseenter').show().siblings().hide();
+				$('#difficulty.show').show().siblings().hide();
 			});		
 				
 			});
