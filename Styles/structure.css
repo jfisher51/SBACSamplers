@@ -16,8 +16,9 @@ body {
 #topNav {
 	position: absolute;
 	height: 22px;
+	left: 0px;
+	top: 0px;
 	width: 100%;
-	min-width: 1024px;
 	background-color: #18577E;
 	z-index: 600;
 }
@@ -29,11 +30,12 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 0;
-	min-width: 1024px;
+	-webkit-overflow-scrolling:touch;
 }
 #testShellFrame {
 	height: 100%;
 	width: 100%;
+	-webkit-overflow-scrolling:touch;
 }
 
 #main-nav a:hover, #main-nav li:hover a {
@@ -49,17 +51,56 @@ body {
 	display: block;
 	width:460px;
 }
+#orientation {
+	display:none;
+}
 
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-    
-    #testShellWidget, #testShellFrame {
-		height: 746px;
+    body {
+		height: 768px !important;
+		width: 980px !important;
+		min-width: 980px !important;
 	}
-	#topNav, #testShellWidget, #testShellFrame {
-		max-width: 1000px !important;
-		-moz-box-sizing: border-box;
+    #testShellWidget, #testShellFrame {
+		height: 646px !important;
+		overflow: hidden !important;
+		
+	}
+}
+
+@media screen and (orientation: portrait) and (max-device-width: 1280px) {
+     #orientation {
+		display:block;
+		background-color: #e1e1e1;
+		background-color: rgba(0, 0, 0, .3);
+		position:absolute;
+		left:0px;
+		top:0px;
+		height:100%;
+		width:100%;
+		z-index:1;
+		text-align:center;
+	}
+	#rotatePlease {
+		width:50%;
+		left:25%;
+		top:33%;
+		position:absolute;
+		background-color:#fff;
+		border: 4px solid #00abf4;
+    	-moz-border-radius:  10px;
+		-webkit-border-radius:  10px;
+    	border-radius: 10px;
+    	-webkit-box-shadow: 0em 0em .5em #666;
+		-moz-box-shadow: 0em 0em .5em #666;
+		box-shadow: 0em 0em .5em #666;
+		 -moz-box-sizing: border-box;
   		box-sizing: border-box;
+		font-size:24px;
+		padding:20px;
+		text-align:left;
+		line-height:1.2em;
 	}
 }
