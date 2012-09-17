@@ -38,4 +38,12 @@ function blackboxReady(blackboxWin)
 	{
 		hideAboutItems();
 	});
+	
+	$('a[target="testShellFrame"]').click(function(ev)
+	{
+		var configFile = ev.target.href.split('config=')[1];
+		frames['testShellFrame'].ItemPreview.requestConfig('data', configFile);
+		return false;
+	});
+	
 }
