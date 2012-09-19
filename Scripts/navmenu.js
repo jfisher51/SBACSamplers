@@ -11,6 +11,10 @@ Shows filtered tables in "View More" navigation item.
 				$('#null.show').show().siblings().hide();
 			});	
 			
+			$('a.viewall').click(function() {
+				$('#null.show').show().siblings().hide();
+			});	
+			
 			$('#tech').addClass('show').click(function(){
 			$(this).addClass('show');
 			});

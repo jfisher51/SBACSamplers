@@ -9,7 +9,7 @@
 	<link href="Styles/structure.css" rel="stylesheet" type="text/css" />
 	<link href="Styles/all.css" rel="stylesheet" type="text/css" />
 
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
+	<script type="text/javascript" src="Scripts/jquery-1.6.2.js"></script>
 	<script src="Scripts/navmenu.js" type="text/javascript"></script>
 	<script src="Scripts/content.js" type="text/javascript"></script>
 
@@ -53,8 +53,9 @@
 											<table cellpadding="1" border="1">
 												<tbody>
 													<tr>
-														<td colspan="5" style="padding:15px 5px 15px 0px; text-align:left; font-size:14px;">
-															<span class="null" style="color:#ffffff;">Filter By:</span>&nbsp;<a href="#" class="tech">Technology Enhanced</a><span style="color:#ffffff;">&nbsp;|&nbsp;</span><a href="#" class="performance">Performance Tasks</a><span style="color:#ffffff;">&nbsp;|&nbsp;</span><a href="#" class="learning">Learning Progressions</a><span style="color:#ffffff;">&nbsp;|&nbsp;</span><a href="#" class="difficulty">Difficulty Progressions</a>
+														<td colspan="5" style="padding:15px 5px 15px 0px; text-align:left; font-size:13px;">
+															<!--<a href="#" class="viewall" style="font-size:12px; font-weight:normal; display:block; text-align:left; margin:0px; padding:0px;">View All</a><br/>-->
+															<span class="null" style="color:#ffffff;">Filter By:</span>&nbsp;<a href="#" class="tech">Technology Enhanced</a><span style="color:#ffffff;">&nbsp;|&nbsp;</span><a href="#" class="performance">Performance Tasks</a><span style="color:#ffffff;">&nbsp;|&nbsp;</span><a href="#" class="learning">Connections Across Grades</a><span style="color:#ffffff;">&nbsp;|&nbsp;</span><a href="#" class="difficulty">Difficulty Progressions</a>
 														</td>
 													</tr>
 													<tr>
@@ -66,10 +67,10 @@
 																		<td style="padding:5px;" width="80">
 																		<a href="#"><strong>Grade Band</strong></a>
 																		</td>
-																		<td style="padding:5px;" width="150">
+																		<td style="padding:5px;" width="160">
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\MathClaim1.json">Concepts and Procedures</a>
 																		</td>
-																		<td style="padding:5px;" width="160">
+																		<td style="padding:5px;" width="150">
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\MathClaim2.json">Problem Solving</a>
 																		</td>
 																		<td style="padding:5px;" width="110">
@@ -88,16 +89,14 @@
 																		</td>
 																		<td style="padding:5px;">
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\NumberLine.json">Number Line</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\FractionModel.json">Fraction Model</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\MultiplicationFacts.json">Multiplication</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\MultiplicationFacts.json">Multiplication and Division</a><br style="line-height:20px;"/>
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\RelayRace.json">Relay Race</a>
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Grocery1.json">Operations Progression 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Grocery2.json">Operations Progression 2</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Grocery2.json">Bag Strength</a><br style="line-height:20px;"/>
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Sandwiches.json">Sandwiches</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Garden1.json">Garden 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Garden2.json">Garden 2</a>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Garden1.json">Rectangle 1</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Garden2.json">Rectangle 2</a>
 																		</td>
 																		<td style="padding:5px;">
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\AlienEyes.json">The Contest</a><br style="line-height:20px;"/>
@@ -115,23 +114,21 @@
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Math6-8.json">6-8</a>
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions1.json">EE Progressions 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions2.json">EE Progressions 2</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions3.json">EE Progressions 3</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\NumberLine2.json">Number Line</a>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions1.json">Expressions and Equations 1</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions2.json">Expressions and Equations 2</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions3.json">Expressions and Equations 3</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\NumberLine2.json">Integer Expressions</a>
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\SuitcaseWeight1.json">Suitcase Weight 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\SuitcaseWeight2.json">Suitcase Weight 2</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\SuitcaseWeight1.json">Sandbags 1</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\SuitcaseWeight2.json">Sandbags 2</a><br style="line-height:20px;"/>
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Calculator.json">Calculator</a>
 																		</td>
 																		<td style="padding:5px;">&nbsp;
 																		
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EmilysWalk1.json">Emily's Walk 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EmilysWalk2.json">Emily's Walk 2</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\ChipsGame.json">Chips Game</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EmilysWalk2.json">Emily's Walk</a><br style="line-height:20px;"/>
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\eBooks.json">eBooks</a>
 																		</td>
 																		<td style="padding:5px;">
@@ -143,9 +140,7 @@
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\MathHS.json">High School</a>
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Numbers.json">Operations Progression 3</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Inequalities.json">Inequalities</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Quadratics.json">Quadratics</a>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Numbers.json">Rationals and Radicals</a>
 																		</td>
 																		<td style="padding:5px;">
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Circle1.json">Circle 1</a><br style="line-height:20px;"/>
@@ -168,7 +163,7 @@
 																</table>
 															</div>
 															<div id="tech" style="text-align:left;">
-																<div style="color:#ffffff; border-bottom:1px solid #ffffff; padding-bottom:10px;"><h3 style="color:#ffffff;">Technology Enhanced:</h3><p>These items take advantage of computer-based administration to assess a deeper understanding of content and skills than would otherwise be possible with traditional item types. Technology-enhanced items capitalize on technology to collect evidence through a non-traditional response type, such as editing text or drawing an object.</p></div>
+																<div style="color:#ffffff; border-bottom:1px solid #ffffff; padding-bottom:10px;"><h3 style="color:#ffffff;">Technology Enhanced:&nbsp;<a href="#" class="viewall" style="font-size:11px; font-weight:normal; margin:0px; padding:0px;">(View All)</a></h3><p>These items take advantage of computer-based administration to assess a deeper understanding of content and skills than would otherwise be possible with traditional item types. Technology-enhanced items capitalize on technology to collect evidence through a non-traditional response type, such as editing text or drawing an object.</p></div>
 																<table>
 																	<tbody>
 																		<td style="padding:5px;" width="80">
@@ -202,8 +197,7 @@
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\RelayRace.json">Relay Race</a>
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Grocery1.json">Operations Progression 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Grocery2.json">Operations Progression 2</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Grocery2.json">Bag Strength</a><br style="line-height:20px;"/>
 																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;
 																		</td>
@@ -226,7 +220,7 @@
 																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;<br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\NumberLine2.json">Number Line</a>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\NumberLine2.json">Integer Expressions</a>
 																		</td>
 																		<td style="padding:5px;">
 																		&nbsp;<br style="line-height:20px;"/>
@@ -237,10 +231,8 @@
 																		
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EmilysWalk1.json">Emily's Walk 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EmilysWalk2.json">Emily's Walk 2</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\ChipsGame.json">Chips Game</a><br style="line-height:20px;"/>
-																		&nbsp;
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EmilysWalk2.json">Emily's Walk</a><br style="line-height:20px;"/>
+\																		&nbsp;
 																		</td>
 																		<td style="padding:5px;">&nbsp;
 																		
@@ -251,9 +243,7 @@
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\MathHS.json">High School</a>
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Numbers.json">Operations Progression 3</a><br style="line-height:20px;"/>
-																		&nbsp;<br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Quadratics.json">Quadratics</a>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Numbers.json">Rationals and Radicals</a>
 																		</td>
 																		<td style="padding:5px;">
 																		&nbsp;<br style="line-height:20px;"/>
@@ -276,7 +266,7 @@
 																</table>
 															</div>
 															<div id="performance" style="text-align:left;">
-																<div style="color:#ffffff; border-bottom:1px solid #ffffff; padding-bottom:10px;"><h3 style="color:#ffffff;">Performance Tasks:</h3><p>Performance tasks measure a student's ability to integrate knowledge and skills across multiple standards &mdash; a key component of college and career readiness. Performance tasks will be used to better measure capacities such as depth of understanding, research skills, and complex analysis, which cannot be adequately assessed with selected- or constructed-response items. Performance tasks in reading, writing, and mathematics will be part of the interim and summative assessments.</p></div>
+																<div style="color:#ffffff; border-bottom:1px solid #ffffff; padding-bottom:10px;"><h3 style="color:#ffffff;">Performance Tasks:&nbsp;<a href="#" class="viewall" style="font-size:11px; font-weight:normal; margin:0px; padding:0px;">(View All)</a></h3><p>Performance tasks measure a student's ability to integrate knowledge and skills across multiple standards &mdash; a key component of college and career readiness. Performance tasks will be used to better measure capacities such as depth of understanding, research skills, and complex analysis, which cannot be adequately assessed with selected- or constructed-response items. Performance tasks in reading, writing, and mathematics will be part of the interim and summative assessments.</p></div>
 																<table>
 																	<tbody>
 																		<td style="padding:5px;" width="80">
@@ -384,7 +374,7 @@
 																</table>
 															</div>
 															<div id="learning" style="text-align:left;">
-																<div style="color:#ffffff; border-bottom:1px solid #ffffff; padding-bottom:10px;"><h3 style="color:#ffffff;">Learning Progressions:</h3><p>The Common Core State Standards include a sequence of concepts that build through the grades in a logical and coherent fashion. These learning progressions allow students to master the building blocks of a skill and apply this knowledge to increasingly complex tasks as they advance through school. These sample items show how the vertical articulation of content in the standards will be evident in Smarter Balanced assessments.</p></div>
+																<div style="color:#ffffff; border-bottom:1px solid #ffffff; padding-bottom:10px;"><h3 style="color:#ffffff;">Connections Across Grades:&nbsp;<a href="#" class="viewall" style="font-size:11px; font-weight:normal; margin:0px; padding:0px;">(View All)</a></h3><p>The Common Core State Standards include a sequence of concepts that build through the grades in a logical and coherent fashion. These sample items show how the vertical articulation of content in the standards will be evident in Smarter Balanced assessments.</p></div>
 																<table>
 																	<tbody>
 																		<td style="padding:5px;" width="80">
@@ -418,8 +408,8 @@
 																		&nbsp;
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Grocery1.json">Operations Progression 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Grocery2.json">Operations Progression 2</a><br style="line-height:20px;"/>
+																		&nbsp;<br style="line-height:20px;"/>
+																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;
 																		</td>
@@ -439,9 +429,9 @@
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Math6-8.json">6-8</a>
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions1.json">EE Progressions 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions2.json">EE Progressions 2</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EEProgressions3.json">EE Progressions 3</a><br style="line-height:20px;"/>
+																		&nbsp;<br style="line-height:20px;"/>
+																		&nbsp;<br style="line-height:20px;"/>
+																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;
 																		</td>
 																		<td style="padding:5px;">
@@ -467,7 +457,7 @@
 																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\MathHS.json">High School</a>
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Numbers.json">Operations Progression 3</a><br style="line-height:20px;"/>
+																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;
 																		</td>
@@ -492,7 +482,7 @@
 																</table>
 															</div>
 															<div id="difficulty" style="text-align:left;">
-																<div style="color:#ffffff; border-bottom:1px solid #ffffff; padding-bottom:10px;"><h3 style="color:#ffffff;">Difficulty Progressions:</h3><p>Computer adaptive tests require items that span a wide range of difficulty levels to provide precise measures of what students know and can do. These sample items show the range in difficulty for items designed to measure the same assessment targets. Capturing the full range of item difficulty across assessment targets is essential for creating high quality adaptive tests, and final difficulty estimates for items will be validated through field testing.</p></div>
+																<div style="color:#ffffff; border-bottom:1px solid #ffffff; padding-bottom:10px;"><h3 style="color:#ffffff;">Difficulty Progressions:&nbsp;<a href="#" class="viewall" style="font-size:11px; font-weight:normal; margin:0px; padding:0px;">(View All)</a></h3><p>Computer adaptive tests require items that span a wide range of difficulty levels to provide precise measures of what students know and can do. These sample items show the range in difficulty for items designed to measure the same assessment targets. Capturing the full range of item difficulty across assessment targets is essential for creating high quality adaptive tests, and final difficulty estimates for items will be validated through field testing.</p></div>
 																<table>
 																	<tbody>
 																		<td style="padding:5px;" width="80">
@@ -528,8 +518,8 @@
 																		<td style="padding:5px;">
 																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;<br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Garden1.json">Garden 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Garden2.json">Garden 2</a>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Garden1.json">Rectangle 1</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\Garden2.json">Rectangle 2</a>
 																		</td>
 																		<td style="padding:5px;">
 																		&nbsp;<br style="line-height:20px;"/>
@@ -553,16 +543,15 @@
 																		&nbsp;
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\SuitcaseWeight1.json">Suitcase Weight 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\SuitcaseWeight2.json">Suitcase Weight 2</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\SuitcaseWeight1.json">Sandbags 1</a><br style="line-height:20px;"/>
+																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\SuitcaseWeight2.json">Sandbags 2</a><br style="line-height:20px;"/>
 																		&nbsp;
 																		</td>
 																		<td style="padding:5px;">&nbsp;
 																		
 																		</td>
 																		<td style="padding:5px;">
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EmilysWalk1.json">Emily's Walk 1</a><br style="line-height:20px;"/>
-																		<a target="testShellFrame" href="../ModernShell.aspx?config=SBAC\Content\EmilysWalk2.json">Emily's Walk 2</a><br style="line-height:20px;"/>
+																		&nbsp;<br style="line-height:20px;"/>
 																		&nbsp;
 																		&nbsp;
 																		</td>
@@ -611,38 +600,32 @@
 								<div class="drop" style="margin-left:-82px;">
 									<ul class="sub-menu">
 										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35" id="menu-item-35" style="color:#ffffff; font-size:120%;">
-											<div id="43044"><br/><strong>Number Line</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;3<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1F<br/><br/>CCSS:&nbsp;3.NF.1, 3.NF.2, 3.NF.3<br/><br/>This item demonstrates a shift in the standards, asking grade 3 students to understand that fractions are numbers, not just pizzas and pies.</span></div>
-											<div id="42882"><br/><strong>Chips Game</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;7<br/><br/>Claim: Modeling and Data Analysis<br/><br/>Target:&nbsp;4A, 4D, 4F, 1D<br/><br/>CCSS:&nbsp;6.NS.6, 6.NS.7<br/><br/>This item can be made more complex by not revealing the "number of moves."<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42882Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="42905"><br/><strong>Operations Progression 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;3<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C, 1A<br/><br/>CCSS:&nbsp;2.OA.1<br/><br/>This item is the first in a vertical learning progression. This progression demonstrates how operations become increasingly sophisticated as students progress from operating with whole numbers to operating with fractions to operating with rational and radical numbers.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42905Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="42906"><br/><strong>Numbers</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;9<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1A<br/><br/>CCSS:&nbsp;N-RN.1<br/><br/>This item is the third in a vertical learning progression. This progression demonstrates how operations become increasingly sophisticated as students progress from operating with whole numbers to operating with fractions to operating with rational and radical numbers.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42906Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="42932"><br/><strong>Emily's Walk 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;6<br/><br/>Claim: Modeling and Data Analysis<br/><br/>Target:&nbsp;4A, 4F, 1F<br/><br/>CCSS:&nbsp;5.NF.5. 5.NF.6<br/><br/>Today's students may never page through an atlas, but most will have seen a map like the one in this item designed to assess application of operations with fractions. A slightly less difficult version is also available for viewing. Other versions of this item might include a ruler for greater precision or equal length blocks to remove the estimation requirement.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42932Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="42959"><br/><strong>Relay Race</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;5<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1F<br/><br/>CCSS:&nbsp;5.NF.7<br/><br/>This item builds on the progression of fractions from grades 3 and 4. Students are offered the number line now as a tool to support problem solving, an extension of how the number line is used in earlier grades. These word problems would sometimes be presented without number lines or other models.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42959Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="42960"><br/><strong>Number Line</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;7<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1B<br/><br/>CCSS:&nbsp;7.NS.1<br/><br/>This item provides the number line as a tool for students to use in problem solving. <br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42960Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="42988"><br/><strong>Emily's Walk 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;6<br/><br/>Claim: Modeling and Data Analysis<br/><br/>Target:&nbsp;4A, 4F, 1F<br/><br/>CCSS:&nbsp;5.NF.5. 5.NF.6<br/><br/>Today's students may never page through an atlas, but most will have seen a map like the one in this item designed to assess application of operations with fractions. A slightly more difficult version is also available for viewing. Other versions of this item might include a ruler for greater precision or equal length blocks to remove the estimation requirement.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42988Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="42990"><br/><strong>Operations Progression 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;5<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C, 1G<br/><br/>CCSS:&nbsp;4.NF.3<br/><br/>This item is the second in a vertical learning progression. This progression demonstrates how operations become increasingly sophisticated as students progress from operating with whole numbers to operating with fractions to operating with rational and radical numbers.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42990Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43042"><br/><strong>Inequalities</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;11<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A,2B,2D,1J<br/><br/>CCSS:&nbsp;A-REI.12, F-IF.7b<br/><br/>This item demonstrates the type of complex thinking that is called for in the CCSS, and draws on the content of multiple content and practice standards.</span></div>
-											<div id="43047"><br/><strong>EE Progressions 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;6<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1E<br/><br/>CCSS:&nbsp;6.EE.4<br/><br/>This item is the first in a sequence intended to show a vertical learning progression. In grade 6 students generate equivalent algebraic expressions, in grade 7 these are expanded to include expressions with rational coefficients, and in grade 8 students use earlier strategies to solve increasingly complex equations.</span></div>
-											<div id="43048"><br/><strong>Multiplication</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;5<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1D<br/><br/>CCSS:&nbsp;5.NBT.5<br/><br/>This item provides one example of the expected fluencies for grade 5.</span></div>
-											<div id="43053"><br/><strong>EE Progressions 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;7<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1C<br/><br/>CCSS:&nbsp;7.EE.2<br/><br/>This item is the second in a sequence intended to show a vertical learning progression. In grade 6 students generate equivalent algebraic expressions, in grade 7 these are expanded to include expressions with rational coefficients, and in grade 8 students use earlier strategies to solve increasingly complex equations.</span></div>
-											<div id="43054"><br/><strong>Fraction Model</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;3<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1F<br/><br/>CCSS:&nbsp;3.NF.1<br/><br/>In grade 3, students should understand that the fraction represented by an area model depends on how one defines the "whole." This is part of a progression to grade 4 where students understand that operations can only be performed with fractions referring to the same whole.</span></div>
-											<div id="43056"><br/><strong>EE Progressions 3</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;8<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1D<br/><br/>CCSS:&nbsp;8.EE.7.a<br/><br/>This item is the third in a sequence intended to show a vertical learning progression. In grade 6 students generate equivalent algebraic expressions, in grade 7 these are expanded to include expressions with rational coefficients, and in grade 8 students use earlier strategies to solve increasingly complex equations.</span></div>
-											<div id="42961"><br/><strong>Calculator </strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;7<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2B, 1A<br/><br/>CCSS:&nbsp;6.RP.3<br/><br/>This item is designed to assess student understanding of the important grade 7 work on percent through the lens of the 21st century skill of using online calculators.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42961Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43022"><br/><strong>Garden 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;4<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C, 1I, 1B<br/><br/>CCSS:&nbsp;4.MD.3, 4.OA.4<br/><br/>This item is the less difficult of two for the same assessment target. <br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43022Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43023"><br/><strong>Garden 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;4<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C, 1I, 1B<br/><br/>CCSS:&nbsp;4.MD.3, 4.OA.4<br/><br/>This item is the more difficult of two for the same assessment target.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43023Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43025"><br/><strong>Swimmers</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;5<br/><br/>Claim:  Communicating Reasoning<br/><br/>Target:&nbsp;3D, 3F, 1C<br/><br/>CCSS:&nbsp;5.NBT.3, 5.NBT.4<br/><br/>A short animation is used to reduce the amount of text in this item and to help students understand the information presented. Smarter Balanced will evaluate this item type during pilot testing. <br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43025Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43026"><br/><strong>Suitcase Weight 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;6<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A,1D<br/><br/>CCSS:&nbsp;7.EE.3<br/><br/>This item connects students work with operations of earlier grades to their work with measures of central tendency in grade 6. A slightly more difficult version of this item is also available for viewing.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43026Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43027"><br/><strong>Suitcase Weight 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;8<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A,1D<br/><br/>CCSS:&nbsp;8.EE.8.c<br/><br/>This item connects students' work with operations of earlier grades to their work with measures of central tendency in grade 6. A slightly less difficult version of this item is also available for viewing.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43027Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43028"><br/><strong>eBooks</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;8<br/><br/>Claim: Modeling and Data Analysis<br/><br/>Target:&nbsp;4A, 4B, 4D, 4F, 1J, 1F<br/><br/>CCSS:&nbsp;8.SP.1, 8.SP.3, 8.F.5<br/><br/>This item represents part of the modeling process, as appropriate for grade 8. In high school, students might be expected to compare a piecewise linear model for fitting the data.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43028Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43046"><br/><strong>Circle 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;9<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A,2 C, gd8(1H)<br/><br/>CCSS:&nbsp;8.G.8<br/><br/>This item is the less difficult of two items designed to assess the same content. It lends itself to multiple approaches, including the proportional reasoning from grade 7, distance between points in the coordinate plane from grade 8, and the trigonometric approaches in high school.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43046Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43049"><br/><strong>Circle 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;9<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C, gd8(1H)<br/><br/>CCSS:&nbsp;8.G.8<br/><br/>This item is the more difficult of two items designed to assess the same content. It lends itself to multiple approaches, including the proportional reasoning from grade 7, distance between points in the coordinate plane from grade 8, and the trigonometric approaches in high school.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43049Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43051"><br/><strong>Sandwiches</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;4<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2D, 1G<br/><br/>CCSS:&nbsp;4.NF.3<br/><br/>By grade 4, students should understand that each sandwich in this problem represents the same whole, and therefore operations with fractions can be used in solving this problem.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43051Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43052"><br/><strong>Used Car</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;10<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C, 1G, 1H, 1I<br/><br/>CCSS:&nbsp;A-REI.1, A-REI.3<br/><br/>This item is a straightforward example of assessing problem solving.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43052Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43057"><br/><strong>Room Wall</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;9<br/><br/>Claim:  Communicating Reasoning<br/><br/>Target:&nbsp;3A,3B, gd8(1C,1G)<br/><br/>CCSS:&nbsp;8.EE.6, 8.G.1<br/><br/>A short animation is used to reduce the amount of text in this item and to help students understand the information presented. Smarter Balanced will evaluate this item type during pilot testing. <br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43057Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43058"><br/><strong>Decibels</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;10<br/><br/>Claim:  Communicating Reasoning<br/><br/>Target:&nbsp;3E, 2A, 1G<br/><br/>CCSS:&nbsp;A-CED.1<br/><br/>This application item asks students to explain flawed reasoning, one of the task models used for measuring students' ability to communicate mathematical reasoning.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43058Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="43081-43084"><br/><strong>The Contest</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;4<br/><br/>Claim:  Communicating Reasoning<br/><br/>Target:&nbsp;3B, 2D, 1A<br/><br/>CCSS:&nbsp;3.OA.2<br/><br/>This item taps student understanding of factoring, divisibility, and interpreting a remainder. Although the primary alignment is to grade 4, this item may also be available to students in adjacent grades.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43081-43084Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
-											<div id="42768"><br/><strong>Quadratics</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;10<br/><br/>Claim: Concepts and Procedures<br/><br/>Target:&nbsp;1J<br/><br/>CCSS:&nbsp;A-RI.12<br/><br/>This item displays one way that technology can be used to assess graphical representations where solutions must be represented by regions.</span></div>
-											<div id="42968"><br/><strong>Water Tank</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;11<br/><br/>Claim:  Problem Solving<br/><br/>Target:&nbsp;2A, 2B, 1I, 1I<br/><br/>CCSS:&nbsp;8.G.9, A-REI.4<br/><br/>This innovative model can be adapted for use in multiple grades by changing the shapes of the containers. Even in early grades, this type of item can be used to ask, "How much liquid is left in container A?" after some has been removed.</span></div>
-											<div id="43060"><br/><strong>Two-Second Rule</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;10<br/><br/>Claim: Modeling and Data Analysis<br/><br/>Target:&nbsp;4E,1N<br/><br/>CCSS:&nbsp;F-BF.1a, F-LE.1b<br/><br/>This modeling item asks students to discuss the mathematical underpinnings of a concept used to support safe driving.</span></div>
+											<div id="42906"><br/><strong>Rationals and Radicals</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;HS<br/><br/>Claim 1: Concepts and Procedures<br/><br/>Target:&nbsp;1A<br/><br/>CCSS:&nbsp;5.NBT.5<br/><br/>This non-calculator item assesses students' understanding of number and quantity, which in high school includes expressions using radicals and rational exponents.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42906Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="42932"><br/><strong>Emily's Walk</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;7<br/><br/>Claim 4: Modeling and Data Analysis<br/><br/>Target:&nbsp;4A, 4F<br/><br/>CCSS:&nbsp;8.G.8, 8.EE.6<br/><br/>Today's students may never page through an atlas, but most will have seen a map like the one in this item designed to assess application of operations with fractions. A slightly more difficult version is also available for viewing. Other versions of this item might include a ruler for greater precision or equal length blocks to remove the estimation requirement.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42932Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="42959"><br/><strong>Relay Race</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;5<br/><br/>Claim 1: Concepts and Procedures<br/><br/>Target:&nbsp;1F<br/><br/>CCSS:&nbsp;4.NF.3<br/><br/>This item builds on the progression of fractions from grades 3 and 4. Students are offered the number line in grade 5 as a tool to support problem solving, an extension of how the number line is used in earlier grades. These word problems would sometimes be presented without number lines or other models. Some items for this standard will not include the support of the number line.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42959Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="42960"><br/><strong>Integer Expressions</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;7<br/><br/>Claim 1: Concepts and Procedures<br/><br/>Target:&nbsp;1B<br/><br/>CCSS:&nbsp;A-REI.1, A-REI.3<br/><br/>Students use the number line to add and subtract integers.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42960Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="42968"><br/><strong>Water Tank</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;HS<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A, 2B<br/><br/>CCSS:&nbsp;7.EE.2<br/><br/>This innovative model can be adapted for use in multiple grades by changing the shapes of the containers. Even in early grades, this type of item can be used to ask, "How much liquid is left in container A?" after some has been removed.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/42968Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43022"><br/><strong>Rectangle 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;4<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C<br/><br/>CCSS:&nbsp;8.EE.7.a<br/><br/>This item is the less difficult of two for the same assessment target. <br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43022Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43023"><br/><strong>Rectangle 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;4<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C<br/><br/>CCSS:&nbsp;8.EE.6, 8.G.1<br/><br/>This item is the more difficult of two for the same assessment target.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43023Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43025"><br/><strong>Swimmers</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;5<br/><br/>Claim 3:  Communicating Reasoning<br/><br/>Target:&nbsp;3D, 3F<br/><br/>CCSS:&nbsp;A-CED.1<br/><br/>A short animation is used to reduce the amount of text in this item and to help students understand the information presented. Smarter Balanced will evaluate this item type during pilot testing. <br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43025Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43026"><br/><strong>Sandbags 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;6<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A<br/><br/>CCSS:&nbsp;F-BF.1a, F-LE.1b<br/><br/>This item connects students work with operations of earlier grades to their work with measures of central tendency in grade 6. A slightly more difficult version of this item is also available for viewing.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43026Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43027"><br/><strong>Sandbags 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;8<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A<br/><br/>CCSS:&nbsp;4.NF.4c, 5.NF.6<br/><br/>This item connects students work with operations of earlier grades to their work with measures of central tendency in grade 6. A slightly less difficult version of this item is also available for viewing.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43027Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43028"><br/><strong>eBooks</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;8<br/><br/>Claim 4: Modeling and Data Analysis<br/><br/>Target:&nbsp;4A, 4B, 4D, 4F<br/><br/>CCSS:&nbsp;6.RP.3<br/><br/>This item represents part of the modeling process, as appropriate for grade 8. In high school, students might be expected to compare a piecewise linear model for fitting the data.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43028Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43046"><br/><strong>Circle 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;HS<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A,2C<br/><br/>CCSS:&nbsp;7.EE.2<br/><br/>This item is the less difficult of two items designed to assess the same content. It lends itself to multiple approaches, including the proportional reasoning from grade 7, distance between points in the coordinate plane from grade 8, and the trigonometric approaches in high school.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43046Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43049"><br/><strong>Circle 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;HS<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C<br/><br/>CCSS:&nbsp;6.RP.3<br/><br/>This item is the more difficult of two items designed to assess the same content. It lends itself to multiple approaches, including the proportional reasoning from grade 7, distance between points in the coordinate plane from grade 8, and the trigonometric approaches in high school.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43049Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43051"><br/><strong>Sandwiches</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;4<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A, 2D<br/><br/>CCSS:&nbsp;4.MD.3, 4.OA.4<br/><br/>By grade 4, students should understand that each sandwich in this problem represents the same whole, and therefore operations with fractions can be used in solving this problem.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43051Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43052"><br/><strong>Used Car</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;HS<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C<br/><br/>CCSS:&nbsp;4.MD.3, 4.OA.4<br/><br/>This item is a straightforward example of assessing problem solving.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43052Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43057"><br/><strong>Room Wall</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;HS<br/><br/>Claim 3:  Communicating Reasoning<br/><br/>Target:&nbsp;3A,3B<br/><br/>CCSS:&nbsp;8.EE.8.c<br/><br/>A short animation is used to reduce the amount of text in this item and to help students understand the information presented. Smarter Balanced will evaluate this item type during pilot testing. <br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43057Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43058"><br/><strong>Decibels</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;HS<br/><br/>Claim 3:  Communicating Reasoning<br/><br/>Target:&nbsp;3E, 2A<br/><br/>CCSS:&nbsp;8.SP.1, 8.SP.3, 8.F.5<br/><br/>This application item asks students to explain flawed reasoning, one of the task models used for measuring students' ability to communicate mathematical reasoning.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43058Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43060"><br/><strong>Two-Second Rule</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;HS<br/><br/>Claim 4: Modeling and Data Analysis<br/><br/>Target:&nbsp;4E<br/><br/>CCSS:&nbsp;8.G.8<br/><br/>This modeling item asks students to discuss the mathematical underpinnings of a concept used to support safe driving.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43060Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="43081-43084"><br/><strong>The Contest</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;4<br/><br/>Claim 3:  Communicating Reasoning<br/><br/>Target:&nbsp;3B, 2D<br/><br/>CCSS:&nbsp;A-REI.1, A-REI.3<br/><br/>This item taps student understanding of factoring, divisibility, and interpreting a remainder. Although the primary alignment is to grade 4, this item may also be available to students in adjacent grades.<br/><br/><a href="http://www.smarterbalanced.org/wordpress/wp-content/uploads/2012/09/math-rubrics/43081-43084Rubric.pdf" target="_blank">View Rubric (PDF)</a></span></div>
+											<div id="42961"><br/><strong>Calculator </strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;7<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A, 2B,<br/><br/>CCSS:&nbsp;4.NF.3<br/><br/>Online calculators and other applications are common in the 21st century. Today's students should understand that the mathematics they learn supports many of the tools designed to make our lives easier. More sophisticated calculator simulations will be used to measure some of the high school standards.</span></div>
+											<div id="43044"><br/><strong>Number Line</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;3<br/><br/>Claim 1: Concepts and Procedures<br/><br/>Target:&nbsp;1F<br/><br/>CCSS:&nbsp;3.OA.2<br/><br/>This item demonstrates a shift in the standards, asking grade 3 students to understand that fractions are numbers, not just pizzas and pies.</span></div>
+											<div id="43047"><br/><strong>Expressions and Equations 1</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;6<br/><br/>Claim 1: Concepts and Procedures<br/><br/>Target:&nbsp;1E<br/><br/>CCSS:&nbsp;3.NF.1<br/><br/>This item is the first in a sequence intended to show a vertical learning progression. In grade 6 students generate equivalent algebraic expressions, in grade 7 these are expanded to include expressions with rational coefficients, and in grade 8 students use earlier strategies to solve increasingly complex equations.</span></div>
+											<div id="43048"><br/><strong>Multiplication and Division</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;5<br/><br/>Claim 1: Concepts and Procedures<br/><br/>Target:&nbsp;1D<br/><br/>CCSS:&nbsp;8.EE.7.a<br/><br/>This item provides one example of the expected fluencies for grade 5.</span></div>
+											<div id="43053"><br/><strong>Expressions and Equations 2</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;7<br/><br/>Claim 1: Concepts and Procedures<br/><br/>Target:&nbsp;1C<br/><br/>CCSS:&nbsp;5.NBT.3, 5.NBT.4<br/><br/>This item would likely have a high difficulty level. High difficulty items are essential for measurement precision of top-performing students. Work on equivalent expressions in grades 6 and 7 supports students' ability to solve increasingly complex equations in grade 8 and high school.</span></div>
+											<div id="43056"><br/><strong>Expressions and Equations 3</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;8<br/><br/>Claim 1: Concepts and Procedures<br/><br/>Target:&nbsp;1D<br/><br/>CCSS:&nbsp;7.EE.3<br/><br/>In grade 6 students generate equivalent algebraic expressions, in grade 7 these are expanded to include expressions with rational coefficients, and in grade 8 students use earlier strategies to solve increasingly complex equations.</span></div>
+											<div id="43328"><br/><strong>Bag Strength</strong><br/><br/><span style="font-weight:normal;">Grade:&nbsp;5<br/><br/>Claim 2:  Problem Solving<br/><br/>Target:&nbsp;2A, 2C<br/><br/>CCSS:&nbsp;8.G.8<br/><br/>This item asks students to understand fractions as numbers in the context of problem solving by determining whether there is a whole number multiplier that would position the given fraction between two other whole numbers.</span></div>
 										</li>
 								</ul></div>
 							</li>
