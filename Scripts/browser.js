@@ -1,3 +1,4 @@
+// checks if the browser is allowed for SBAC
 function isBrowserAllowed() 
 {
 	//=================================================
@@ -167,3 +168,12 @@ function isBrowserAllowed()
 	return browserAllowed;
 	//==================================================================================================
 }
+
+// show a message if the browser is not allowed
+$(document).ready(function()
+{
+	if (!isBrowserAllowed())
+	{
+		$('body').addClass('blockedBrowser');
+	}
+});
