@@ -104,12 +104,12 @@ body {
 		display:block;
 	}
 }
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 965px) {
     #resolution {
 		display:block;
 	}
 }
-@media only screen and (max-device-height: 750px) {
+@media only screen and (max-device-height: 443px) {
     #resolution {
 		display:block;
 	}
