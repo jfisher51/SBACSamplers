@@ -114,3 +114,14 @@ body {
 		display:block;
 	}
 }
+
+@media only screen and (max-width: 1023px) {
+    #resolution {
+		display:block;
+	}
+}
+@media only screen and (max-device-height: 443px) {
+    #resolution {
+		display:block;
+	}
+}
