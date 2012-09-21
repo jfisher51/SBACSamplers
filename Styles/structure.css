@@ -107,12 +107,10 @@ body {
 @media only screen and (max-width: 1023px) {
     #resolution {
 		display:block;
-		background-color: red;
 	}
 }
 @media only screen and (max-device-height: 443px) {
     #resolution {
 		display:block;
-		background-color: orange;
 	}
 }
