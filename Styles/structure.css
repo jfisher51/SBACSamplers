@@ -104,24 +104,15 @@ body {
 		display:block;
 	}
 }
-@media only screen and (max-device-width: 965px) {
-    #resolution {
-		display:block;
-	}
-}
-@media only screen and (max-device-height: 443px) {
-    #resolution {
-		display:block;
-	}
-}
-
 @media only screen and (max-width: 1023px) {
     #resolution {
 		display:block;
+		background-color: red;
 	}
 }
 @media only screen and (max-device-height: 443px) {
     #resolution {
 		display:block;
+		background-color: orange;
 	}
 }
