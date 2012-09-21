@@ -20,11 +20,11 @@ body {
 	top: 0px;
 	width: 100%;
 	background-color: #18577E;
-	z-index: 600;
+	z-index: 2;
 }
 #testShellWidget {
 	position: absolute;
-	top: 23px;
+	top: 0px;
 	left: 0px;
 	bottom: 0px;
 	width: 100%;
@@ -90,12 +90,12 @@ body {
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     body {
-		height: 768px !important;
-		width: 980px !important;
-		min-width: 980px !important;
+		height: 746px !important;
+		width: 1024px !important;
+		min-width: 1024px !important;
 	}
     #testShellWidget, #testShellFrame {
-		height: 646px !important;
+		height: 672px !important;
 		overflow: hidden !important;		
 	}
 }
@@ -109,7 +109,7 @@ body {
 		display:block;
 	}
 }
-@media only screen and (max-device-height: 443px) {
+@media only screen and (max-height: 500px) {
     #resolution {
 		display:block;
 	}
