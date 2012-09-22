@@ -37,7 +37,13 @@ body {
 	width: 100%;
 	-webkit-overflow-scrolling:touch;
 }
-
+/*hack for android chrome that keeps the iframe at the right z-index*/
+#testShellFrame {
+	border-left:solid 10px transparent;
+	position:relative;
+	top:0;
+	left:-10px;
+}
 #main-nav a:hover, #main-nav li:hover a {
     color: #green !important;
     font-weight: bold;
