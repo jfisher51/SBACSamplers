@@ -11,8 +11,6 @@ function isBrowserAllowed()
 	var browserAllowed = false;
 	var browserVersionHasMultipleDecimals = false;
 
-	var browserOutput = "browser: " + JSON.stringify(browser) + "\n=======\n" + "layout: " + JSON.stringify(layout) + "\n=======\n" + "os: " + JSON.stringify(os);
-	
 	if(browser.version.substr(0,browser.version.indexOf('.',browser.version.indexOf('.')+1))) {
 		//alert('There are multiple decimals in the browser version.');
 		browserVersionHasMultipleDecimals = true;
@@ -156,11 +154,13 @@ function isBrowserAllowed()
 	//==================================================================================================
 	// Show output in HTML
 	//==================================================================================================
+	// var browserOutput = "browser: " + JSON.stringify(browser) + "\n=======\n" + "layout: " + JSON.stringify(layout) + "\n=======\n" + "os: " + JSON.stringify(os);
+
 	//alert('browserOutput: '+browserOutput);
-	$("#browserOutput").html('<pre>browserOutput:<br>'+browserOutput+'</pre>');
+	// $("#browserOutput").html('<pre>browserOutput:<br>'+browserOutput+'</pre>');
 	
 	//alert('browserAllowed: '+browserAllowed);
-	$("#browserAllowed").html('<pre>browserAllowed: '+browserAllowed+'</pre>');
+	// $("#browserAllowed").html('<pre>browserAllowed: '+browserAllowed+'</pre>');
 	
 	//==================================================================================================
 	// Return: true | false
