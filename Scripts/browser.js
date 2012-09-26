@@ -44,7 +44,7 @@ function isBrowserAllowed()
 			// Non-Linux (i.e. Mac, Windows, etc. )
 			//-------------------------------------------------
 			else {
-				if(versionChromeResolved>=20) { // <-- Set the proper minimum browser version number
+				if(versionChromeResolved>=18) { // <-- Set the proper minimum browser version number
 					browserAllowed = true;
 				}
 				else {
